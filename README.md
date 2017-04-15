@@ -1,6 +1,6 @@
 # Plotter.js
 A JavaScript helper to plot data.
-![Demo](demo.png)
+![Demo](docs/demo.png)
 
 ## API reference
 * [`Plotter`](Plotter.md): description of the `Plotter` class.
@@ -60,7 +60,8 @@ plotter.drawLineChart()
 ```
 Result:
 
-![Demo Result](demo2.png)
+![Demo Result](docs/demo-result.png)
+[HTML](https://github.com/PeterMader/Plotter.js/blob/master/docs/demo.html)
 
 ## Method chaining
 Every method in `Plotter.js` returns the object it operates on. This is not true if it would not make sense to do so (e.g. getter methods). This feature simplifies API calls on the same object. For example, instead of writing this:
