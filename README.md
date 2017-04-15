@@ -3,10 +3,10 @@ A JavaScript helper to plot data.
 ![Demo](docs/demo.png)
 
 ## API reference
-* [`Plotter`](Plotter.md): description of the `Plotter` class.
-* [`Point`](Point.md): description of the `Point` class.
-* [`PointList`](PointList.md): description of the `PointList` class.
-* [`types`](types.md): list of type definitions for this documentation.
+* [`Plotter`](docs/Plotter.md): description of the `Plotter` class.
+* [`Point`](docs/Point.md): description of the `Point` class.
+* [`PointList`](docs/PointList.md): description of the `PointList` class.
+* [`types`](docs/types.md): list of type definitions for this documentation.
 
 ## Getting started
 Embed Plotter.js in your web page by including these three files:
@@ -61,6 +61,7 @@ plotter.drawLineChart()
 Result:
 
 ![Demo Result](docs/demo-result.png)
+
 [HTML](https://github.com/PeterMader/Plotter.js/blob/master/docs/demo.html)
 
 ## Method chaining
