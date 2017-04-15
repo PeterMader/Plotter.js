@@ -8,8 +8,3 @@ repository: PeterMader/Plotter.js
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-minimal
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-- Gemfile.lock
