@@ -13,6 +13,7 @@ Embed Plotter.js in your web page by including these three files:
 * `Plotter.js`
 * `Point.js`
 * `PointList.js`
+
 Example:
 ```HTML
 <!DOCTYPE html>

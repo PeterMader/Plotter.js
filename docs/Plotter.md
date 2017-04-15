@@ -1,5 +1,5 @@
 # Plotter class
-[Home](./)
+[Home](./index.md)
 
 This document describes the `Plotter` class.
 

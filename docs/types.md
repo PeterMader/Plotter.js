@@ -1,5 +1,5 @@
 # Type definitions
-[Home](./)
+[Home](./index.md)
 
 In this documentation, the following types are used:
 * `string`: a JavaScript string (MDN: [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)).

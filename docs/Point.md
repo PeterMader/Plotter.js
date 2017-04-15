@@ -1,5 +1,5 @@
 # Point class
-[Home](./)
+[Home](./index.md)
 
 This document describes the `Point` class. It lives in the `Plotter` namespace.
 
