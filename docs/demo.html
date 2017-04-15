@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Demo</title>
+
+    <script src="../lib/Plotter.js" charset="utf-8"></script>
+    <script src="../lib/Point.js" charset="utf-8"></script>
+    <script src="../lib/PointList.js" charset="utf-8"></script>
+
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', () => {
+
+        // JavaScript goes here
+        const canvas = document.getElementById('canvas')
+        const plotter = new Plotter(canvas)
+
+        const list = plotter.getPointList()
+        const point1 = new Plotter.Point({ x: 80, y: 100 })
+        const point2 = new Plotter.Point({ x: 150, y: 200 })
+        const point3 = new Plotter.Point({ x: 220, y: 150 })
+        list.addPoints(point1, point2, point3)
+
+        plotter.setColor('#3377DD')
+        plotter.setPointSize(5)
+        plotter.drawLineChart()
+
+      })
+    </script>
+  </head>
+  <body>
+    <!-- HTML goes here, e.g. this canvas element -->
+    <canvas id="canvas" width="300" height="300" style="background-color: lightgrey;"></canvas>
+  </body>
+</html>
