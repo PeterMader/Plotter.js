@@ -1,0 +1,15 @@
+title: Plotter.js
+description: A JavaScript helper to plot data.
+baseurl: ""
+url: "petermader.github.io"
+github_username:  PeterMader
+repository: PeterMader/Plotter.js
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+- Gemfile.lock
