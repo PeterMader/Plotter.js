@@ -1,4 +1,6 @@
 # Type definitions
+[Home](./)
+
 In this documentation, the following types are used:
 * `string`: a JavaScript string (MDN: [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)).
 * `number`: a JavaScript number (MDN: [number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)).

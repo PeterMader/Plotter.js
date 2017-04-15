@@ -1,4 +1,6 @@
 # PointList class
+[Home](./)
+
 This document describes the `PointList` class. It lives in the `Plotter` namespace.
 
 ## Constructor

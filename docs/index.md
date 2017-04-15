@@ -2,6 +2,12 @@
 A JavaScript helper to plot data.
 ![Demo](demo.png)
 
+## API reference
+* [`Plotter`](Plotter.md): description of the `Plotter` class.
+* [`Point`](Point.md): description of the `Point` class.
+* [`PointList`](PointList.md): description of the `PointList` class.
+* [`types`](types.md): list of type definitions for this documentation.
+
 ## Getting started
 Embed Plotter.js in your web page by including these three files:
 * `Plotter.js`
@@ -55,12 +61,6 @@ plotter.drawLineChart()
 Result:
 
 ![Demo Result](demo2.png)
-
-## API reference
-* [`Plotter`](Plotter.md): description of the `Plotter` class.
-* [`Point`](Point.md): description of the `Point` class.
-* [`PointList`](PointList.md): description of the `PointList` class.
-* [`types`](types.md): list of type definitions for this documentation.
 
 ## Method chaining
 Every method in `Plotter.js` returns the object it operates on. This is not true if it would not make sense to do so (e.g. getter methods). This feature simplifies API calls on the same object. For example, instead of writing this:

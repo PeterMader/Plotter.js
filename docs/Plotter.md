@@ -1,4 +1,6 @@
 # Plotter class
+[Home](./)
+
 This document describes the `Plotter` class.
 
 ## Constructor
