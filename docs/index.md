@@ -61,7 +61,7 @@ plotter.drawLineChart()
 ```
 Result:
 
-![Demo Result](demo2.png)
+![Demo Result](demo-result.png)
 
 [Demo page](demo.html)
 
