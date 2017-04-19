@@ -6,7 +6,7 @@ A JavaScript library to plot data.
 Read the [Getting Started Guide](docs/getting-started.md) in the documentation.
 
 ## API reference
-Read the [API reference](docs/reference-index) in the documentation.
+Read the [API reference](docs/reference-index.md) in the documentation.
 
 ## Method chaining
 Read the article about [method chaining](docs/method-chaining.md) in the documentation.
