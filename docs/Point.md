@@ -1,7 +1,7 @@
 # Point class
-[Home](./index.md)
+[Home](./)
 
-This document describes the `Point` class. It lives in the `Plotter` namespace.
+This article describes the `Point` class.
 
 ## Constructor
 Creates a new point that can be drawn on the canvas.
@@ -15,14 +15,14 @@ Arguments:
 * `object options`: a dictionary object that contains 0. It may contain zero or more of the [properties](#properties) listed below.
 
 Returns:
-* `Point`: a new instance of `Plotter.Point`
+* `Point`: a new instance of `Point`
 
 ## <a name="properties"></a>Instance properties
 All properties have corresponding getters and setters which you can use to read or write the properties' values. The setters return the instance of the point itself.
 
 * `number x`: describes the point's position in x direction (default: `0`; the setter for this property is `setPosition`).
 * `number y`: describes the point's position in y direction (default: `0`; the setter for this property is `setPosition`).
-* `cssColor color`: describes the point's color (default: the plotter's `color` property).
+* `cssColor color`: describes the point's color (default: the diagram's `color` property).
 * `string label`: describes the point's label (default: `''`).
 
 ## Instance methods
@@ -42,3 +42,16 @@ Arguments:
 
 Returns:
 * `Point`: the same instance of `Point`
+
+#### `clone`
+Clones a point and sets the new point's properties to those of the old point.
+
+Syntax:
+```
+Point point.clone()
+```
+
+Arguments: none.
+
+Returns:
+* `Point`: the new instance of `Point`

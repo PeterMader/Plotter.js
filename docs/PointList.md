@@ -1,7 +1,7 @@
 # PointList class
-[Home](./index.md)
+[Home](./)
 
-This document describes the `PointList` class. It lives in the `Plotter` namespace.
+This article describes the `PointList` class.
 
 ## Constructor
 Creates a new point list that contains the points that are drawn on the canvas.
@@ -14,7 +14,7 @@ const pointList = new Plotter.PointList()
 Arguments: none.
 
 Returns:
-* `PointList`: a new instance of `Plotter.PointList`
+* `PointList`: a new instance of `PointList`
 
 ## Instance properties
 All properties have corresponding getters and setters which you can use to read or write the properties' values. The setters return the instance of the point itself.

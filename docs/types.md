@@ -1,5 +1,5 @@
 # Type definitions
-[Home](./index.md)
+[Home](./)
 
 In this documentation, the following types are used:
 * `string`: a JavaScript string (MDN: [string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)).
@@ -11,6 +11,7 @@ In this documentation, the following types are used:
 * `HTMLCanvasElement`: an instance of the HTML `canvas` element (MDN: [HTMLCanvasElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement)).
 * `CanvasRenderingContext2D`: a JavaScript 2D canvas rendering context (MDN: [CanvasRenderingContext2D](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D)).
 * `(A a, ...) => T`: a function that takes zero or more arguments of type `A` or other types and returns a value of type `T`
-* `Plotter`: an instance of the [Plotter](Plotter.md) class.
+* `Axis`: an instance of the [Axis](Axis.md) class.
+* `Diagram`: an instance of the [Diagram](Diagram.md) class.
 * `Point`: an instance of the [Point](Point.md) class.
 * `PointList`: an instance of the [PointList](PointList.md) class.
